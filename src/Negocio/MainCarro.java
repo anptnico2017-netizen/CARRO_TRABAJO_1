@@ -9,6 +9,8 @@ public class MainCarro {
         c1.acelerar();
         c1.acelerar();
         c1.frenar();
+        c1.setPotencia(2);
+        c1.setVelocidad(60);
         System.out.println("La potenica del carro es "+c1.potencia+" y la velocidad es "+c1.velocidad);
     }
 }
